@@ -1,2 +1,3 @@
 echo %PATH%
+
 echo %USERNAME%
