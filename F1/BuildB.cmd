@@ -1,4 +1,4 @@
-set exit_code=1
+set exit_code=0
 
 echo Build B
 
