@@ -3,8 +3,8 @@ echo off
 
 sleep 10
 
-echo "RUN_TESTS_B=%dep.SnapshotDependenciesAlwaysRunningTests_B.env.RUN_TESTS_B%"
-IF "%dep.SnapshotDependenciesAlwaysRunningTests_B.env.RUN_TESTS_B%"=="FALSE" GOTO RUN_TESTS_C
+echo "RUN_TESTS_B=%dep.SD_RunTests_BuildB.env.RUN_TESTS_B%"
+IF "%dep.SD_RunTests_BuildB.env.RUN_TESTS_B%"=="FALSE" GOTO RUN_TESTS_C
 FOR /L %%G IN (1,1,10) DO echo TEST-B-%%G 
 
 
