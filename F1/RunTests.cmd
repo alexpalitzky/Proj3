@@ -9,7 +9,7 @@ FOR /L %%G IN (1,1,10) DO echo TEST-B-%%G
 
 
 :RUN_TESTS_C
-echo %dep.SD_RunTests_BuildC.env.RUN_TESTS_C%%
+echo %dep.SD_RunTests_BuildC.env.RUN_TESTS_C%
 IF "%dep.SD_RunTests_BuildC.env.RUN_TESTS_C%"=="FALSE" GOTO END
 FOR /L %%G IN (1,1,10) DO echo TEST-C-%%G 
 
